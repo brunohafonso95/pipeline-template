@@ -1,0 +1,3 @@
+com\indra\product\test\automation\client\main\ExecuteTest.class
+com\indra\product\test\automation\client\pages\GooglePage.class
+com\indra\product\test\automation\client\steps\GooglePageSteps.class

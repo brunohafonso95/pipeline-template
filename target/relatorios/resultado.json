@@ -1,0 +1,123 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Pesquisa Simples",
+        "description": "",
+        "id": "google;pesquisa-simples",
+        "after": [
+          {
+            "result": {
+              "duration": 2041339200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GooglePageSteps.encerra()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 116933800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Internet",
+            "match": {
+              "location": "GooglePageSteps.internet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42555920400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Abre o Google",
+            "match": {
+              "location": "GooglePageSteps.abre_o_Google()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 264796600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Pagina carrega.",
+            "match": {
+              "location": "GooglePageSteps.pagina_carrega()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8342177800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Realizar Pesquisa",
+            "match": {
+              "location": "GooglePageSteps.realizar_Pesquisa()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 388867800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Campo preenchido com texto",
+            "match": {
+              "location": "GooglePageSteps.campo_preenchido_com_texto()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23271400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Busca e realizada",
+            "match": {
+              "location": "GooglePageSteps.busca_e_realizada()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6081000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Pagina carrega trazendo resultado",
+            "match": {
+              "location": "GooglePageSteps.pagina_carrega_trazendo_resultado()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@apresentacao"
+          }
+        ]
+      }
+    ],
+    "name": "Google",
+    "description": "",
+    "id": "google",
+    "keyword": "Feature",
+    "uri": "Google.feature"
+  }
+]

@@ -1,0 +1,3 @@
+log4j.configuration property
+
+java -Dlog4j.configuration=file:/path/to/log4j.properties myApp

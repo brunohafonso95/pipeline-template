@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.indra.product.test.automation.client.main.ExecuteTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 54.349 s - in com.indra.product.test.automation.client.main.ExecuteTest
